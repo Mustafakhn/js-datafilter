@@ -104,15 +104,9 @@ var newEntries = {
 }
 
     superheroes.push(newEntries);
-    // let index = indexOF(superheroes)
-    // superheroes.splice(index, newEntries);
     console.log(superheroes)
     document.getElementById("btn').addEventListener('click",insertSuperhero);
 
     createRows(superheroes);
 
 }
-
-
-// insertSuperhero(superheroes, newEntries);
-
